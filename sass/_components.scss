@@ -1,7 +1,7 @@
 //logo
 .logo {
 	height: 3.25rem;
-	margin-left: 3rem;
+	margin-left: 2rem;
 }
 
 // search box
@@ -56,7 +56,6 @@
 
 // user navigation
 .user-nav {
-	background-color: greenyellow;
 	align-self: stretch;
 	display: flex;
 	align-items: center;
@@ -73,6 +72,7 @@
 	}
 
 	&__icon-box {
+		position: relative;
 	}
 	&__icon {
 		height: 2.25rem;
@@ -86,13 +86,17 @@
 		border-radius: 50%;
 		background-color: var(--color-primary);
 		color: #fff;
-	}
-	&__user {
+		position: absolute;
+		top: 1.56rem;
+		right: 1.1rem;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	&__user-photo {
 		height: 3.75rem;
 		border-radius: 50%;
-	}
-	&__user-name {
+		margin-right: 1rem;
 	}
 }
