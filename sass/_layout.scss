@@ -28,7 +28,15 @@
 .hotel-view {
 	background-color: #fff;
 
-	background-color: lightblue;
 	height: 80rem;
 	flex: 1;
+}
+
+// gallery
+.gallery {
+	display: flex;
+	&__photo {
+		width: 100%;
+		display: block;
+	}
 }
